@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Konversi Nilai</title>
+</head>
+<body>
+
+<script>
+var nilai = prompt("Masukkan nilai (0-100):");
+var huruf = "";
+
+if (nilai <= 40)
+    huruf = "E";
+else if (nilai <= 55)
+    huruf = "D";
+else if (nilai <= 60)
+    huruf = "C";
+else if (nilai <= 65)
+    huruf = "BC";
+else if (nilai <= 70)
+    huruf = "B";
+else if (nilai <= 80)
+    huruf = "AB";
+else
+    huruf = "A";
+
+document.write("Nilai Huruf : " + huruf);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<HTML>
+<HEAD>
+<TITLE>Pemasukan Data</TITLE>
+</HEAD>
+<BODY>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+var nama = prompt("Siapa nama Anda?", "Masukkan nama anda");
+document.write("Hai, " + nama);
+
+</SCRIPT>
+
+</BODY>
+</HTML>
